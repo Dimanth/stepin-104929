@@ -50,7 +50,7 @@ int main() {
 
 /* Write all the test functions */ 
 void test_EmployeeData(void) {
-  CU_ASSERT(1 == EmployeeData(1));
+  CU_ASSERT(3 == EmployeeData(1,2));
   
   /* Dummy fail*/
   CU_ASSERT(1500 == EmployeeData(750, 7500));
